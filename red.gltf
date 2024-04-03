@@ -1,0 +1,111 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.62",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Text",
+      "rotation": [0.7071068286895752, 0, 0, 0.7071068286895752],
+      "scale": [2.1254994869232178, 1, 2.1254994869232178],
+      "translation": [0.49893754720687866, 0.29728007316589355, 0]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.800481915473938, 0.049898356199264526, 0.09345372021198273, 1
+        ],
+        "metallicFactor": 0.45871561765670776,
+        "roughnessFactor": 0.20642203092575073
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Text",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8744,
+      "max": [0.4664385914802551, 0.2500000298023224, 0.3072800636291504],
+      "min": [-0.4664415121078491, -0.2500000298023224, -0.30728453397750854],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8744,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8744,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 49896,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 104928,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 104928,
+      "byteOffset": 104928,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69952,
+      "byteOffset": 209856,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 99792,
+      "byteOffset": 279808,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 379600,
+      "uri": "red.bin"
+    }
+  ]
+}
